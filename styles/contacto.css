@@ -1,0 +1,310 @@
+.contacto{
+    background-color: #f7e6d0cc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto h2{
+    font-size: 2.5em;
+}
+
+.contacto p{
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.cajacontacto{
+    background-color: white;
+    width: 70%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 1em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.contactame{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.contactametexto{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.escribime{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.contactoicono a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    padding-top: 0px;
+}
+
+.contactoicono p{
+    padding-left: 15px;
+}
+
+i{
+    font-size: 1.8em;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.contactoicono :hover{
+    color: #a14af2 ;
+}
+
+.contactoicono :hover i{
+    color: white;
+    background-color: #a14af2 ;
+}
+
+.escribime h2{
+    padding-bottom: 10px;
+}
+
+.nombreyapellido{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nombre{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+.apellido{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+}
+
+.mensaje{
+    display: flex;
+    flex-direction: column;
+}
+
+.campo label{
+    font-size: 1em;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.campo input{
+    background-color:#f7e6d0cc;
+    border-radius: 1.5em;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    border-style: none;
+}
+
+.campo textarea{
+    background-color:#f7e6d0cc;
+    border-radius: 1.5em;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    border-style: none;
+}
+
+button{
+    background-color: #a14af2;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 1.5em;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    width: 25%;
+    margin-top: 20px;
+    border-style: none;
+}
+
+input{
+    outline: none;
+    }
+
+textarea{
+    outline: none;
+}
+
+button{
+    outline: none;
+}
+
+.campo :active{
+    box-shadow: 1px 1px 29px 13px #a14af2;
+} 
+
+@media screen and (max-width: 350px){
+    .contactoicono p{
+        font-size: 0.9em;
+    }
+
+    button{
+        text-align: center;
+        padding: 0;
+        padding-bottom: 2px;
+        padding-top: 2px;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+    .cajacontacto{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .contactame{
+        width: 100%;
+    }
+
+    .escribime{
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .nombreyapellido{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .campo{
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 580px){
+    .cajacontacto{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .contactame{
+        width: 100%;
+    }
+
+    .escribime{
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .nombreyapellido{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .campo{
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 800px){
+    .cajacontacto{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .contactame{
+        width: 100%;
+    }
+
+    .escribime{
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .nombreyapellido{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .campo{
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 1010px){
+
+    .cajacontacto{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contactame{
+        width: 100%;
+    }
+
+    .escribime{
+        width: 100%;
+        margin-top: 40px;
+    }
+
+}
+
+@media screen and (max-width: 1252px){
+
+    .cajacontacto{
+        width: 90%;
+    }
+
+}

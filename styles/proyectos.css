@@ -1,0 +1,99 @@
+.proyectos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.proytitulo{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.proytitulo h2{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.proytexto{
+    margin-top: 40px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.proytexto p{
+    text-align: center;
+    font-size: 1.2em;
+    
+}
+
+.containerproyectos{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    gap: 30px;
+
+}
+
+.proycaja{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-width: 1px;
+    border-color: lightgray;
+    border-style: solid;
+    border-radius: 1em;
+    padding-bottom: 10px;
+}
+
+.proycaja a{
+    text-decoration: none;  
+    color: black;
+    text-align: center;
+}
+
+
+.containerproyectos :hover{
+    color: #a14af2;
+    border-color: #a14af2;
+}
+
+.proysize{
+    width: 250px;
+    height: 250px;
+}
+
+
+@media screen and (max-width: 400px){
+
+    .proytexto{
+        width: 90%;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 580px){
+.proysize{
+    width: 200px;
+    height: 200px;
+}
+
+}
+
+@media screen and (max-width: 890px){
+
+    .proytexto{
+        width: 95%;
+    }
+    .containerproyectos{
+    width: 100%;
+}
+
+}

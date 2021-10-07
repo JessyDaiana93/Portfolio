@@ -1,0 +1,134 @@
+.hola{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding-top: 100px;
+}
+
+.holasoy{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    padding-left: 15%;
+}
+
+.holasoy h2{
+    font-size: 2em;
+}
+
+.holasoy h1{
+    font-size: 3em;
+    color:#7d05df;
+}
+
+.holasoy p{
+    font-size: 1.2em;
+}
+
+
+.loquehago p{
+    width:35%;
+    background-color:#7d05df;
+    border-radius: 1.5em ;
+    display: flex;
+    padding: 20px 20px 20px 20px;
+    justify-content: center;
+    
+}
+
+.loquehago a{
+    text-decoration: none;
+    color:white
+}
+
+.holadibujo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.holadibujo img{
+    width: 650px;
+    height: 650px;
+}
+
+
+@media screen and (max-width: 400px){
+    .hola{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .holasoy{
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .holadibujo{
+        width: 100%;
+    }
+
+    .holadibujo img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .loquehago p{
+        width:75%;
+    }
+
+}
+
+@media screen and (max-width: 580px){
+    .hola{
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+    }
+
+    .holasoy{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .holasoy p{
+        text-align: center;
+    }
+
+    .loquehago p{
+        width:100%;
+    }
+
+    .holadibujo{
+        width: 100%;
+    }
+
+    .holadibujo img{
+        width: 250px;
+        height: 250px;
+    }
+
+}
+
+@media screen and (max-width: 900px){
+    .hola{
+        padding-top: 30px;
+    }
+
+    .holadibujo img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .loquehago p{
+        width:80%;
+        margin-bottom: 30px;
+    }
+}
