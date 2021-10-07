@@ -16,4 +16,3 @@ El portfolio cuenta con:
 - HTML5
 - CSS3
 
-https://github.com/JessyDaiana93/Portfolio.git
